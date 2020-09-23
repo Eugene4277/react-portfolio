@@ -12,12 +12,15 @@ function App(props) {
     <BrowserRouter>
       <div className="main-container d-flex w-100 h-100 p-3 mx-auto flex-column">
         <Header />
-        <Contacts />
+        <div className="contacts-visability">
+          <Contacts />
+        </div>
         <main role="main" className="inner cover">
           <Switch>
             <Route path="/" exact component={Main} />
             <Route path="/aboutme" component={About} />
             <Route path="/pet-projects" component={Projects} />
+            <Route path="/contacts" component={Contacts} />
           </Switch>
         </main>
         <Footer />

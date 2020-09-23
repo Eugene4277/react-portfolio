@@ -3,7 +3,7 @@ import React from "react";
 function About(props) {
   return (
     <>
-      <h1 className="cover-heading">Couple words about me and my experiance</h1>
+      <h1 className="cover-heading">Couple words about me and my experience</h1>
       <p className="lead">
         I'm sure that everybody who wants to be satisfied with their being
         should try a lot of branches to find themselves. And if you found your
@@ -17,7 +17,8 @@ function About(props) {
         invited me in their startup and I made frontend part of their website
         with Bootstrap and React. I'm still learning everyday, coding my pet
         projects, appling knowledges that I recieved for last half a year. But I
-        want to improve my skills and get an experiance like a part of a team...
+        want to improve my skills and get an experiance like a part of a team in
+        a IT company...
       </p>
     </>
   );

@@ -38,7 +38,7 @@ function Contacts(props) {
             href="https://web.telegram.org/@Eugene1414"
             title="Contact on Telegram"
           >
-            <i class="fab fa-telegram-plane contact-icon"></i>
+            <i className="fab fa-telegram-plane contact-icon"></i>
           </a>
         </li>
       </ul>

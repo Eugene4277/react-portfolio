@@ -17,6 +17,9 @@ function Header(props) {
           <NavLink className="nav-link" to="/pet-projects">
             Pet Projects
           </NavLink>
+          <NavLink className="nav-link contacts" to="/contacts">
+            Contacts
+          </NavLink>
         </nav>
       </div>
     </header>
